@@ -3,8 +3,8 @@ import React from 'react'
 
 const Explore = () => {
   return (
-    <View>
-      <Text>Explore</Text>
+    <View className='flex w-full h-full items-center justify-center bg-slate-700'>
+      <Text className='text-white text-4xl font-semibold' >Explore this website</Text>
     </View>
   )
 }
